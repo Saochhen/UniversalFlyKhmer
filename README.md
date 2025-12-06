@@ -1,4 +1,24 @@
 # UniversalFlyKhmer
 Universal Fly Script with Khmer UI + Godmode (Fake)
+local Rayfield = loadstring(game:HttpGet("https://sirius.menu/rayfield"))()
 
-loadstring(game:HttpGet("https://pastebin.com/raw/w4uufMFN"))()
+local Window = Rayfield:CreateWindow({
+   Name = "ម៉ឺនុយ Blox Fruits",
+   LoadingTitle = "កំពុងដំណើរការ UI",
+   LoadingSubtitle = "រង់ចាំបន្តិច...",
+})
+
+local MainTab = Window:CreateTab("ផ្លែឈើ")
+
+Rayfield:Notify({
+   Title = "រត់ Script ជោគជ័យ",
+   Content = "សូមអរគុណសម្រាប់ការប្រើប្រាស់",
+   Duration = 5
+})
+
+local Button = MainTab:CreateButton({
+   Name = "ស្វែងរកផ្លែឈើ",
+   Callback = function()
+      print("អ្នកចុចប៊ូតុង!")
+   end
+})
