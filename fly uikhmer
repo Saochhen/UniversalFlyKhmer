@@ -1,7 +1,3 @@
-Saokhen/UniversalFlyKhmer
-Universal Fly Script with Khmer UI + Godmode (Fake)
-
-
 local Rayfield = loadstring(game:HttpGet("https://sirius.menu/rayfield"))()
 
 local Window = Rayfield:CreateWindow({
